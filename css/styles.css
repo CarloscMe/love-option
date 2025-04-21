@@ -18,7 +18,7 @@ main{
     margin: 100px auto;
 }
 
-div{
+.container{
     height: 200px;
     margin: auto;
     margin-bottom: 20px;
@@ -28,8 +28,23 @@ p{
     text-align: center;
 }
 
-button{
+.btn{
+    display: flex;
     margin: auto;
     width: 50%;
-    background: rgb(10, 207, 10);
+}
+
+button{
+    border: none;
+    padding: .7rem;
+    margin: auto;
+    width: 20%;
+}
+
+.si{
+    background-color: rgb(45, 224, 0);
+}
+
+.no{
+    background-color: rgb(179, 0, 0);
 }
