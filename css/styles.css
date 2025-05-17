@@ -7,7 +7,7 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #fdbdf2;
+    background: #fdbdf2ad;
 }
 
 main{
@@ -19,32 +19,40 @@ main{
 }
 
 .container{
-    height: 200px;
+    height: 70%;
+    width: 40%;
     margin: auto;
     margin-bottom: 20px;
 }
 
 p{
     text-align: center;
+    color: #ff00aa;
+    font-size: 1.3rem;
 }
 
 .btn{
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     width: 50%;
+    gap: 10px;
 }
 
 button{
     border: none;
-    padding: .7rem;
-    margin: auto;
+    border-radius: .5rem;
+    padding: 1rem;
     width: 20%;
+    cursor: pointer;
+    color: #fff;
 }
 
 .si{
-    background-color: rgb(45, 224, 0);
+    background-color: rgb(49, 170, 19);
 }
 
 .no{
-    background-color: rgb(179, 0, 0);
+    background-color: rgb(207, 51, 51);
 }

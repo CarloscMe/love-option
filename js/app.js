@@ -26,18 +26,12 @@ btnSi.addEventListener("click", () =>{
 });
 
 btnNo.addEventListener("click", () =>{   // si algo se es que los eventos se comportan con desencadenamiento
-    mostrar(imagen1, "1", 10)
+    mostrar(imagen1, "1", 20)
     btnNo.addEventListener("click", () =>{
-    mostrar(imagen2 , "2", 20)
+    mostrar(imagen2 , "2", 30)
     btnNo.addEventListener("click", () =>{
-    mostrar(imagen3 , "3", 30) 
+    mostrar(imagen3 , "3", 40) 
     btnNo.addEventListener("click", ()=>{
-    mostrar(imagen1 , "4", 40)
+    mostrar(imagen1 , "4", 50)
     btnNo.addEventListener("click", ()=>{
-    mostrar(imagen2 , "5", 50) }); }); }); }); });
-
-
-
-
-
-
+    mostrar(imagen2 , "5", 55) }); }); }); }); });
