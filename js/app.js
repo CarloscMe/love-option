@@ -4,9 +4,9 @@ const btnSi = document.querySelector(".si");
 const btnNo = document.querySelector(".no");
 
 const imagenes = {   
-     imagen1 : "./assets/gatoSi.jpg", 
+     imagen1 : "./assets/gatoNo1.jpg", 
      imagen2 : "./assets/gatoNo1.jpg",
-     imagen3 :  "./assets/gatoNo2.jpg"
+     imagen3 :  "./assets/gatoNo1.jpg"
 };
 
 const {imagen1, imagen2, imagen3} = imagenes;
